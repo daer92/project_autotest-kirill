@@ -23,8 +23,8 @@
       <file leaf-file-name="loginTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loginTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#24#81#0" expanded="true" />
               </folding>
@@ -113,7 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -381,32 +381,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_loginTest_py - 2016.10.05 at 15h 41m 24s.xml">
+    <history-entry file="py_test_in_loginTest_py - 2016.10.06 at 10h 58m 31s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_loginTest_py - 2016.10.05 at 16h 37m 57s.xml">
+    <history-entry file="py_test_in_loginTest_py - 2016.10.06 at 11h 01m 13s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_loginTest_py - 2016.10.05 at 16h 38m 41s.xml">
+    <history-entry file="py_test_in_loginTest_py - 2016.10.06 at 11h 02m 43s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_loginTest_py - 2016.10.06 at 09h 25m 44s.xml">
+    <history-entry file="py_test_in_loginTest_py - 2016.10.06 at 11h 24m 23s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_loginTest_py - 2016.10.06 at 10h 05m 23s.xml">
+    <history-entry file="py_test_in_loginTest_py - 2016.10.07 at 10h 10m 32s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2016.10.07 at 10h 32m 12s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2016.10.07 at 10h 33m 32s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2016.10.07 at 11h 02m 42s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2016.10.07 at 11h 04m 31s.xml">
+      <configuration name="py.test in loginTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_loginTest_py - 2016.10.07 at 11h 15m 14s.xml">
       <configuration name="py.test in loginTest.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18244316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20412481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31823328" sideWeight="0.50185084" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31823328" sideWeight="0.08196721" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31823328" sideWeight="0.49814913" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31823328" sideWeight="0.91803277" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -574,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loginTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="e#24#81#0" expanded="true" />
           </folding>
