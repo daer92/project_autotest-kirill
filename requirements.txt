@@ -1,0 +1,17 @@
+pytest
+pytest-webdriver
+pytest-bdd
+selenium
+jsonpickle
+Mako
+MarkupSafe
+behave
+nose
+glob2
+mock
+parse
+parse-type
+pbr
+py
+six
+wheel

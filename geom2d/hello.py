@@ -1,8 +1,8 @@
 def hello(s):
-    print('Hello, ' + s +'!')
+    print("hell, " + s + "fuck")
 
 
-hello("world")
-hello("Dude")
-hello("Kiriman")
+hello("1")
+hello("2")
+hello("3")
 
