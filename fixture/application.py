@@ -33,15 +33,29 @@ class Application:
     def Open_home_page_1(self):
         wd = self.wd
         wd.get("http://www.delivery-club.ru/")
-        # wd.find_element_by_link_text("Вход / Регистрация").click()
 
-    def Registration(self, new_name):
+
+    def Registration(self, new_name, phone, email, password):
         wd = self.wd
         wd.find_element_by_link_text("ЗАРЕГИСТРИРОВАТЬСЯ").click()
         time.sleep(3)
         wd.find_element_by_name("name").click()
         wd.find_element_by_name("name").clear()
         wd.find_element_by_name("name").send_keys(new_name)
+        wd.find_element_by_name("phone1").click()
+        wd.find_element_by_name("phone1").clear()
+        wd.find_element_by_name("phone1").send_keys(phone)
+        wd.find_element_by_name("email").click()
+        wd.find_element_by_name("email").clear()
+        wd.find_element_by_name("email").send_keys(email)
+        wd.find_element_by_name("pass").click()
+        wd.find_element_by_name("pass").clear()
+        wd.find_element_by_name("pass").send_keys(password)
+        wd.find_element_by_link_text("ЗАРЕГИСТРИРОВАТЬСЯ").click()
+        time.sleep(5)
+
+
+
 
 
 
