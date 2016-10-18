@@ -1,3 +1,4 @@
+import time
 from selenium.webdriver.chrome.webdriver import WebDriver
 
 
@@ -28,6 +29,21 @@ class Application:
         wd = self.wd
         wd.find_element_by_css_selector("span.user-profile__span").click()
         wd.find_element_by_link_text("Выход").click()
+
+    def Open_home_page_1(self):
+        wd = self.wd
+        wd.get("http://www.delivery-club.ru/")
+        # wd.find_element_by_link_text("Вход / Регистрация").click()
+
+    def Registration(self, new_name):
+        wd = self.wd
+        wd.find_element_by_link_text("ЗАРЕГИСТРИРОВАТЬСЯ").click()
+        time.sleep(3)
+        wd.find_element_by_name("name").click()
+        wd.find_element_by_name("name").clear()
+        wd.find_element_by_name("name").send_keys(new_name)
+
+
 
     def destroy(self):
         self.wd.quit()

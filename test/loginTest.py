@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-import unittest
-from application import Application
 import pytest
+
+from fixture.application import Application
+
 
 @pytest.fixture
 def app(request):
@@ -19,3 +20,7 @@ def test_invalid_login(app): # тестовый метод вызывающий 
     # параметры и вспомогательные методы
     app.login_in(username="w@w.com", password="111111")
     app.log_out()
+
+def test_new_name(app):
+    app.Open_home_page_1()
+    app.Registration(new_name="Test")

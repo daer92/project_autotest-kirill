@@ -1,6 +1,4 @@
-import pytest
-
-from loginTest import *
+from test.loginTest import *
 # from fixture.session import SessionHelper
 # from fixture.personal_data import *
 
