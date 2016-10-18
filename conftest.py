@@ -1,8 +1,8 @@
-from test.loginTest import *
-# from fixture.session import SessionHelper
-# from fixture.personal_data import *
+from fixture.application import Application
+import pytest
 
 @pytest.fixture
 def app(request):
-    fixture = Login()
+    fixture = Application() # Инициализация, создание фикстуры.
+    request.addfinalizer(fixture.destroy) # Указание на разрушение фикстуры
     return fixture

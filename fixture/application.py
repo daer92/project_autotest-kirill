@@ -8,15 +8,30 @@ class Application:
         self.wd = WebDriver()
         # self.wd - объект в которой поместили ссылку www.delivery-club.ru
         self.wd.implicitly_wait(60)
+        # self.session = SessionHelper(self)
 
     def Open_home_page(self):
         wd = self.wd
         wd.get("http://www.delivery-club.ru/")
         wd.find_element_by_link_text("Вход / Регистрация").click()
 
+
+    def Unauthorized_user(self):
+        wd = self.wd
+        wd.find_element_by_link_text("Вход / Регистрация")
+
+    def open_registration_form(self):
+        wd = self.wd
+        # wd.find_element_by_link_text("Вход / Регистрация").click()
+
+    def open_login_form(self):
+        wd = self.wd
+        wd.find_element_by_name("c_l").click()
+
+
     def login_in(self, username, password):
         wd = self.wd
-        self.Open_home_page()
+        # self.Open_home_page()
         wd.find_element_by_name("c_l").click()
         wd.find_element_by_name("c_l").clear()
         wd.find_element_by_name("c_l").send_keys(username)
@@ -35,13 +50,13 @@ class Application:
         wd.get("http://www.delivery-club.ru/")
 
 
-    def Registration(self, new_name, phone, email, password):
+    def Registration(self, username, phone, email, password):
         wd = self.wd
         wd.find_element_by_link_text("ЗАРЕГИСТРИРОВАТЬСЯ").click()
         time.sleep(3)
         wd.find_element_by_name("name").click()
         wd.find_element_by_name("name").clear()
-        wd.find_element_by_name("name").send_keys(new_name)
+        wd.find_element_by_name("name").send_keys(username)
         wd.find_element_by_name("phone1").click()
         wd.find_element_by_name("phone1").clear()
         wd.find_element_by_name("phone1").send_keys(phone)
@@ -54,8 +69,11 @@ class Application:
         wd.find_element_by_link_text("ЗАРЕГИСТРИРОВАТЬСЯ").click()
         time.sleep(5)
 
+    def start_registration(self):
+        pass
 
-
+    def end_registration(self):
+        pass
 
 
 
